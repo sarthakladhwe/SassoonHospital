@@ -1,0 +1,256 @@
+button:focus,
+input[type="button"]:focus,
+input[type="reset"]:focus,
+input[type="submit"]:focus {
+	background: #0173ac;
+	box-shadow: 0 0 0 5px #0173ac;
+}
+.tagcloud a:focus {
+	border-color: #5bdafe;
+}
+.gallery-item a:focus::before {
+	opacity: 1;
+	filter: alpha(opacity= 100);
+	transform: translateY(0px);
+	-webkit-transform: translateY(0px);
+	transition-delay: 0.25s;
+	-webkit-transition-delay: 0.25s;
+	visibility: visible;
+}
+.gallery-item a:focus::after {
+	opacity: 1;
+	visibility: visible;
+}
+a.btn:focus {
+	border: 1px solid #fff;
+	box-shadow: 0 0 0 5px #2b96cc;
+}
+.edit-link a:focus, .reply a:focus, .entry-footer .edit-link a:focus, .entry-footer .reply a:focus, .entry-footer span a.post-edit-link:focus {
+	border-color: #fff;
+	box-shadow: 0 0 0 5px #2b96cc;
+}
+.entry-title a:focus {
+	color: #2b96cc;
+}
+.entry-footer .cat-links a:focus, .entry-footer .comments-link a:focus {
+	color: #2b96cc;
+}
+.nav-links a:focus {
+	background: #0074af;
+}
+.nav-links .nav-previous a:focus:after {
+	left: 5px;
+	opacity: 0;
+}
+.nav-links .nav-next a:focus:after {
+	right: 5px;
+	opacity: 0;
+}
+.entry-meta a:focus {
+	color: #2b96cc;
+}
+#es-top:focus:after {
+	color: #0074ac;
+}
+.logged-in-as a:focus {
+	color: #2b96cc;
+}
+.comment-metadata a:focus {
+	color: #2b96cc;
+}
+.comment-metadata span.edit-link a:focus {
+	color: #fff;
+}
+.top-header .callto-left a:focus {
+	color: #6accfd;
+}
+.callto-right .cta a:focus {
+	background: #1e7aa8;
+}
+.header-search > .fa:focus {
+	background: #1e7aa8;
+}
+.header-search .search-submit:focus {
+	background: #2b96cc none repeat scroll 0 0;
+	border-color: #2b96cc;
+	box-shadow: none;
+	color: #fff;
+}
+.main-navigation .nav-menu li:focus a {
+	color: #2b96cc;
+}
+.main-navigation .nav-menu > li.menu-item-has-children:focus:after {
+	color: #2b96cc;
+}
+.main-navigation .nav-menu > li.menu-item-has-children:focus:before {
+	opacity: 1;
+	filter: Alpha(opacity= 100);
+	visibility: visible;
+}
+.main-navigation .nav-menu li:focus > .sub-menu,
+.main-navigation .nav-menu li:focus > .children,
+.main-navigation .nav-menu li.focus > .sub-menu,
+.main-navigation .nav-menu li.focus > .children {
+	opacity: 1;
+	filter: Alpha(opacity= 100);
+	visibility: visible;
+}
+.main-navigation .nav-menu li .sub-menu li:focus, 
+.main-navigation .nav-menu li .children li:focus {
+	background: #1576a6;
+}
+.main-navigation .nav-menu li:focus .sub-menu li a, 
+.main-navigation .nav-menu li:focus .children li a {
+	color: #fff;
+}
+a.slider-btn:focus {
+	background: #107eb5;
+	border-color: #fff;
+	box-shadow: 0 0 0 5px #107eb5;
+}
+a.home-slider-pointer.cta-btn:focus {
+	background: #b2363f;
+}
+.home-slider-pointer .fa:focus {
+	animation-play-state: paused;
+	-webkit-animation-play-state: paused;
+}
+.bx-wrapper:focus .bx-prev {
+	left: 0;
+}
+.bx-wrapper:focus .bx-next {
+	right: 0;
+}
+.bx-wrapper .bx-prev:focus, .bx-wrapper .bx-next:focus {
+	background: rgba(0, 0, 0, 0.75);
+}
+.bx-wrapper .bx-pager.bx-default-pager a:focus {
+	background: #2b95cc;
+}
+.featured-block:focus {
+	transform: translateY(-5px);
+	-webkit-transform: translateY(-5px);
+}
+.featured-block:focus a figure.featured-image:after {
+	opacity: 1;
+	filter: Alpha(opacity= 100);
+	visibility: visible;
+}
+.featured-block a:focus img {
+	transform: translateY(-10px);
+	-webkit-transform: translateY(-10px);
+}
+.appointment .ufbl-form-wrapper form input.ufbl-form-submit:focus {
+	border-color: #fff;
+	box-shadow: 0 0 0 5px #2b96cc;
+	background: #2b96cc;
+}
+.about .btn:focus {
+	border-color: #2b96cc;
+	box-shadow: 0 0 0 5px #fff;
+}
+.team-slider figure.team-image:focus .team-focus {
+	transform: translateY(0px);
+	-webkit-transform: translateY(0px);
+}
+.our-team-member.fullwidth .team-slider-wrap .bx-wrapper .bx-prev:focus, 
+.our-team-member.fullwidth .team-slider-wrap .bx-wrapper .bx-next:focus, 
+.our-team-member.halfwidth .team-slider-wrap .bx-wrapper .bx-prev:focus, 
+.our-team-member.halfwidth .team-slider-wrap .bx-wrapper .bx-next:focus {
+	background: #2b96cc;
+}
+.team-slider-wrap .bx-wrapper .bx-next:focus:after, .team-slider-wrap .bx-wrapper .bx-prev:focus:before {
+	color: #fff;
+}
+.call-to-action .cta-link a:focus{
+	border: 1px solid #46bddf;
+	box-shadow: 0 0 0 5px #fff;
+}
+.latest-news .btn-wrapper a:focus {
+	color: #fff;
+}
+.news-block figure.news-image:focus img {
+	filter: grayscale(0%);
+	-webkit-filter: grayscale(0%);
+	-moz-filter: grayscale(0%);
+}
+.latest-news figure.news-image:focus .news-date {
+	background: #1d92d4;
+}
+.latest-news .news-single-title a:focus {
+	color: #2b96cc;
+}
+.latest-news a:focus {
+	color: #2b96cc;
+}
+.latest-news a:focus:after {
+	opacity: 1;
+	filter: Alpha(opacity= 100);
+	visibility: visible;
+	bottom: -2px;
+}
+.our-sponsers figure.sponsers-image:focus {
+	filter: grayscale(0%);
+	-webkit-filter: grayscale(0%);
+	-moz-filter: grayscale(0%);
+	transform: scale(1.05);
+	-webkit-transform: scale(1.05);
+}
+.call-to-action-small .cta-link-small a:focus {
+	border: 1px solid #46bddf;
+	box-shadow: 0 0 0 5px #fff;
+}
+.widget ul li a:focus {
+	color: #2b96cc;
+}
+.site-info a:focus {
+	color: #b3eeff;
+}
+.footer-social a:focus {
+	background: #b3eeff;
+	color: #005f7a;
+}
+.footer-social a:focus:after {
+	width: 100%;
+}
+.error-404 input.search-submit:focus {
+	background: #0773a9;
+}
+.search-no-results input.search-submit:focus {
+	background: #0773a9;
+	border-color: #0773a9;
+}
+.category-doctors article:focus figure {
+	border-color: transparent;
+}
+.category-doctors article:focus figure:before {
+	right: 0;
+	opacity: 1;
+	filter: Alpha(opacity= 100);
+	visibility: visible;
+}
+.category-doctors article:focus figure:after {
+	left: 0;
+	opacity: 1;
+	filter: Alpha(opacity= 100);
+	visibility: visible;
+}
+.category-doctors article:focus figure a:before {
+	bottom: 0;
+	opacity: 1;
+	filter: Alpha(opacity= 100);
+	visibility: visible;
+}
+.category-doctors article:focus figure a:after {
+	top: 0;
+	opacity: 1;
+	filter: Alpha(opacity= 100);
+	visibility: visible;
+}
+.category-news article:focus figure {
+	border-color: #88d7ff;
+}
+.category-featured figure a:focus {
+	border-color: #fff;
+	box-shadow: 0 0 0 5px #2b96cc;
+}
