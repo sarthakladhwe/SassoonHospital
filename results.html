@@ -37,6 +37,10 @@
 	<link rel="stylesheet" id="woocommerce-layout-css" href="css/css-woocommerce-layout.css" type="text/css" media="all">
 	<link rel="stylesheet" id="woocommerce-smallscreen-css" href="css/css-woocommerce-smallscreen.css" type="text/css" media="only screen and (max-width: 768px)">
 	<link rel="stylesheet" id="woocommerce-general-css" href="css/css-woocommerce.css" type="text/css" media="all">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 	<style id="woocommerce-inline-inline-css" type="text/css">
 		.woocommerce form .form-row .required { visibility: visible; }
 	</style>
@@ -85,6 +89,7 @@
 	<link rel="shortlink" href="https://8degreethemes.com/demo/8medi-lite/">
 	<link rel="alternate" type="application/json+oembed" href="https://8degreethemes.com/demo/8medi-lite/wp-json/oembed/1.0/embed?url=https%3A%2F%2F8degreethemes.com%2Fdemo%2F8medi-lite%2F">
 	<link rel="alternate" type="text/xml+oembed" href="https://8degreethemes.com/demo/8medi-lite/wp-json/oembed/1.0/embed?url=https%3A%2F%2F8degreethemes.com%2Fdemo%2F8medi-lite%2F&amp;format=xml">
+
 	<noscript>
 		<style>
 			.woocommerce-product-gallery{ opacity: 1 !important; }
@@ -332,11 +337,128 @@
 								<h1 class="page-title">Results</h1>	
 							</header>
 							<!-- .entry-header -->
-							<div class="entry-content">
-								<p>dLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.&nbsp;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.&nbsp;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-								<p>dLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.&nbsp;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.&nbsp;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.&nbsp;dLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.&nbsp;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.&nbsp;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-								<p>dLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.&nbsp;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.&nbsp;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+							<div class="entry-content" style="margin-bottom: 30px;">
+								<nav>
+									<div class="nav nav-tabs" id="nav-tab" role="tablist">
+									  <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">UG</a>
+									  <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">PG</a>
+									  
+									</div>
+								</nav>
+								<br>
+								<div class="tab-content" id="nav-tabContent">
+									<div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+										<div class="row">
+											<div class="col-lg-3 col-md-3 col-sm-12 col-10 d-block m-auto">
+												<div class="btn-group">
+													<button type="button" class="btn btn-text">Select Result</button>
+													<button type="button" class="btn btn-text dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+													  <span class="sr-only">Toggle Dropdown</span>
+													</button>
+													<div class="dropdown-menu">
+													  
+													  <a class="dropdown-item" href="#">MBBS Summer 2016 Result</a>
+													  <a class="dropdown-item" href="#">MBBS Winter 2016 Result</a>
+													  
+													</div>
+												</div>
+											</div>
+											<div class="col-lg-3 col-md-3 col-sm-12 col-10 d-block m-auto">
+												<div class="btn-group">
+													<button type="button" class="btn btn-text">Select Class</button>
+													<button type="button" class="btn btn-text dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+													  <span class="sr-only">Toggle Dropdown</span>
+													</button>
+													<div class="dropdown-menu">
+													  
+													  <a class="dropdown-item" href="#">First</a>
+													  <a class="dropdown-item" href="#">Second</a>
+													  <a class="dropdown-item" href="#">Third</a>
+													  <a class="dropdown-item" href="#">Fourth</a>
+													  
+													  
+													</div>
+												</div>
+											</div>
+											<div class="col-lg-6 col-md-6 col-sm-12 col-10 d-block m-auto">
+												<div class="input-group mt-1">
+													<input type="text" class="form-control" placeholder="Search By Seat Number">
+													
+													  <button class="btn btn-text" type="submit">Search</button>
+												
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+										<div class="row">
+											<div class="col-lg-3 col-md-3 col-sm-12 col-10 d-block m-auto">
+												<div class="btn-group">
+													<button type="button" class="btn btn-text">Select Result</button>
+													<button type="button" class="btn btn-text dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+													  <span class="sr-only">Toggle Dropdown</span>
+													</button>
+													<div class="dropdown-menu">
+													  
+													  <a class="dropdown-item" href="#">MBBS Summer 2016 Result</a>
+													  <a class="dropdown-item" href="#">MBBS Winter 2016 Result</a>
+													  
+													</div>
+												</div>
+											</div>
+											<div class="col-lg-3 col-md-6 col-sm-12 col-10 d-block m-auto">
+												<div class="btn-group">
+													<button type="button" class="btn btn-text">Select Class</button>
+													<button type="button" class="btn btn-text dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+													  <span class="sr-only">Toggle Dropdown</span>
+													</button>
+													<div class="dropdown-menu">
+													  
+													  <a class="dropdown-item" href="#">First</a>
+													  <a class="dropdown-item" href="#">Second</a>
+													  <a class="dropdown-item" href="#">Third</a>
+													  <a class="dropdown-item" href="#">Fourth</a>
+													  
+													  
+													</div>
+												  </div>
+											</div>
+											<div class="col-lg-6 col-md-6 col-sm-12 col-10 d-block m-auto">
+												<div class="input-group mt-1">
+													<input type="text" class="form-control" placeholder="Search By Seat Number">
+													<div class="input-group-append">
+													  <button class="btn btn-text" type="submit">Search</button>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									
+									
+								</div>
 							</div>
+							
+							<table class="table" style="margin-bottom: 200px;">
+								<thead class="thead-dark">
+								  <tr>
+									<th>Seat Number</th>
+									<th>PRN</th>
+									<th>Students Name</th>
+									<th>RESULTS</th>
+								  </tr>
+								</thead>
+								<tbody>
+								  <tr>
+									<td>40679</td>
+									<td>0117140679</td>
+									<td>SHREYA KUMAR</td>
+									<td style="color: red;" >FAIL</td>
+									
+								  </tr>
+								 
+								</tbody>
+							  </table>
+							
 							<!-- .entry-content -->
 							<footer class="entry-footer"></footer>
 							<!-- .entry-footer -->
@@ -346,7 +468,7 @@
 					<!-- #main -->
 				</div>
 				<!-- #primary -->
-				<div id="secondary-right" class="widget-area right-sidebar sidebar">
+				<!--<div id="secondary-right" class="widget-area right-sidebar sidebar">
 					<aside id="archives-4" class="widget widget_archive">
 						<h2 class="widget-title">Archives</h2>	
 						<ul>
@@ -394,7 +516,7 @@
 							</li>
 						</ul>
 					</aside>
-				</div>
+				</div>-->
 			</div>
 		</div>
 		<!-- #content sidebar-->
