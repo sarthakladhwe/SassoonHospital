@@ -34,7 +34,7 @@
 		}
 
 		/* Modification done here!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
-		
+
 		/* RESET STYLES & HELPER CLASSES
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 		:root {
@@ -451,6 +451,34 @@
 			background: var(--color-1);
 		}
 
+		/* Card flip */
+		.card-flip>div {
+			backface-visibility: hidden;
+			transition: transform 300ms;
+			transition-timing-function: linear;
+			width: 100%;
+			height: 100%;
+			margin: 0;
+			display: flex;
+		}
+
+		.card-front {
+			transform: rotateY(0deg);
+		}
+
+		.card-back {
+			transform: rotateY(180deg);
+			position: absolute;
+			top: 0;
+		}
+
+		.card-flip:hover .card-front {
+			transform: rotateY(-180deg);
+		}
+
+		.card-flip:hover .card-back {
+			transform: rotateY(0deg);
+		}
 
 		/* 
 		.flip-card:hover .flip-card-inner {
@@ -836,14 +864,23 @@
 			<div class="ed-container">
 				<div class="container">
 					<h2 class="level-1 rectangle">
-						<div class="flip-card-inner">
-							<div class="flip-card-front">
-								<img src="./images/profile.png"></img><br />
-								Dr. Ajay. S. Chandanwale<br />
-								<p style="font-size: small;">Dean</p>
+						<div class="card card-flip h-100">
+							<div class="card-front text-white bg-dark">
+								<div class="card-body">
+									<img src="./images/profile.png"></img><br />
+									Dr. Ajay. S. Chandanwale<br />
+									<p style="font-size: small;">Dean</p>
+								</div>
 							</div>
-							<div class="flip-card-back  ">
-								Hi
+							<div class="card-back bg-white">
+								<div class="card-body">
+									<p>Address: D-401,R.K.Pride, New D.P.Road, Kothrud, Pune-411037</p>
+									<p>Contact: Tel:020-26102299
+										020-6128000
+										Fax:02026126868
+										Cell:9420697474
+										Email:deanbjmcpune@gmail.com</p>
+								</div>
 							</div>
 						</div>
 					</h2>
@@ -852,25 +889,65 @@
 
 						<li>
 							<h2 class="level-2 rectangle">
-								<img src="./images/profile.png"></img><br />
-								Dr. Arun N. Kowale<br />
-								<p style="font-size: small;">Dy. Dean (UG)</p>
+								<div class="card card-flip h-100">
+									<div class="card-front text-white bg-dark">
+										<div class="card-body">
+											<img src="./images/profile.png"></img><br />
+											Dr. Arun N. Kowale<br />
+											<p style="font-size: small;">Dy. Dean (UG)</p>
+										</div>
+									</div>
+									<div class="card-back bg-white">
+										<div class="card-body">
+											<p>Address: R-4, vijaygad, SBI CO-OP Hsg society shivtrith nagar,Paud road kothrud. Pune-411038</p>>
+											<p>Contact: Tel:020-26102296
+												020-6123872
+												Cell: 9960762233</p>
+										</div>
+									</div>
+								</div>
 							</h2>
 						</li>
 
 						<li>
 							<h2 class="level-2 rectangle">
-								<img src="./images/profile.png"></img><br />
-								Dr. Samir V. Joshi<br />
-								<p style="font-size: small;">Dy. Dean (PG)</p>
+								<div class="card card-flip h-100">
+									<div class="card-front text-white bg-dark">
+										<div class="card-body">
+											<img src="./images/profile.png"></img><br />
+											Dr. Samir V. Joshi<br />
+											<p style="font-size: small;">Dy. Dean (PG)</p>
+										</div>
+									</div>
+									<div class="card-back bg-white">
+										<div class="card-body">
+											<p>Address: Hirai Niwas, 54/6A kothrud, Pune-411038.</p>
+											<p>Contact: Tel:020-26102206
+												Cell: 8329418074</p>
+										</div>
+									</div>
+								</div>
 							</h2>
 						</li>
 
 						<li>
 							<h2 class="level-2 rectangle">
-								<img src="./images/profile.png"></img><br />
-								Dr. Muralidhar Tambe<br />
-								<p style="font-size: small;">Vice Dean</p>
+								<div class="card card-flip h-100">
+									<div class="card-front text-white bg-dark">
+										<div class="card-body">
+											<img src="./images/profile.png"></img><br />
+											Dr. Muralidhar Tambe<br />
+											<p style="font-size: small;">Vice Dean</p>
+										</div>
+									</div>
+									<div class="card-back bg-white">
+										<div class="card-body">
+											<p>Address: A/602,Gagan-Galaxy society,bibwewadi-Kondwa road, Pune-411037</p>
+											<p>Contact: Tel:020-26102302
+												020-29701044</p>
+										</div>
+									</div>
+								</div>
 							</h2>
 						</li>
 
